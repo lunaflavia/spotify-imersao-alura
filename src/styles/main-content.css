@@ -36,7 +36,7 @@
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
-    background-color:var(--bg-arrow-color);
+    background-color: var(--bg-arrow-color);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -53,7 +53,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: var(--background-color);
     border-radius: 500px;
     border: 1px solid transparent;
   }
@@ -68,9 +68,9 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: var(--text-base-light);
     text-overflow: ellipsis;
-    overflow:hidden;
+    overflow: hidden;
     white-space: nowrap;
     outline: none;
   }
@@ -86,7 +86,7 @@
   .header__login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--text-base-dark);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
@@ -106,14 +106,14 @@
 }
 
 .playlist #greeting {
-  color: #fff;
+  color: var(--text-base-light);
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 
 .playlist .session {
-  color: #fff;
+  color: var(--text-base-light);
   font-size: 24px;
   font-weight: 700;
 }
@@ -160,7 +160,7 @@
 .cards span {
   padding: 16px;
   position: absolute;
-  color: #fff;
+  color: var(--text-base-light);
   font-size: 24px;
   font-weight: 700;
 }
@@ -276,7 +276,7 @@
 .card-text {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--text-base-light);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

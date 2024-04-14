@@ -77,7 +77,6 @@
     border: 0px;
     font-size: 1rem;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -102,7 +101,7 @@
 }
 
 .section-playlist {
-    background-color: #242424;
+    background-color: var(--background-color);
     align-items: flex-start;
     border-radius: 8px;
     gap: 20px;
@@ -123,7 +122,7 @@
 
 .section-playlist__content .text {
     padding-bottom: 14px;
-    color: #fff;
+    color: var();
 }
 
 .section-playlist__content .title {
@@ -142,7 +141,6 @@
     display: flex;
     font-size: 0.8rem;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -171,7 +169,7 @@
     background-color: transparent;
     border-radius: 9999px;
     border: 1px solid #878787;
-    color: #fff;
+    color: var(--text-base-light);
     cursor: pointer;
     align-items: center;
     padding: 8px;
